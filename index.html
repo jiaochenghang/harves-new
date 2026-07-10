@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harves Entertainment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"><span></span></div>
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="#home">Harves Entertainment</a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#brand">Brand</a>
+        <a href="#athlete">Athlete</a>
+        <a href="#spaces">Mall</a>
+        <a href="#about">About Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="block hero-block is-dark" id="home">
+        <div class="hero-video-stage" aria-hidden="true">
+          <video class="hero-video hero-video-intro" src="./assets/hero-intro.mp4" muted autoplay playsinline webkit-playsinline="true" x5-playsinline="true" x5-video-player-type="h5-page" preload="auto"></video>
+          <video class="hero-video hero-video-loop" src="./assets/hero-loop.mp4" muted playsinline webkit-playsinline="true" x5-playsinline="true" x5-video-player-type="h5-page" preload="auto" loop></video>
+          <video class="hero-video hero-video-scroll" src="./assets/hero-scroll.mp4" muted playsinline webkit-playsinline="true" x5-playsinline="true" x5-video-player-type="h5-page" preload="metadata"></video>
+          <img class="hero-image" src="./assets/hero.png" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="block-inner hero-inner">
+          <div class="hero-copy reveal">
+            <h1>The<br />Future<br />Plays Here</h1>
+            <p>Connecting Global Sports and Entertainment with the Next Generation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="block build-block" id="home-build" data-nav="home">
+        <div class="block-inner build-grid build-grid-v2">
+          <div class="copy-stack build-title reveal">
+            <h2>What We Build</h2>
+          </div>
+          <div class="build-media build-cards reveal">
+            <figure>
+              <img class="tile" src="./assets/build-1.jpg" alt="Sports IP partner" />
+              <figcaption>IP Partner</figcaption>
+            </figure>
+            <figure>
+              <img class="tile" src="./assets/build-player-agency-new.jpg" alt="Player agency football action" />
+              <figcaption>Player Agency</figcaption>
+            </figure>
+            <figure>
+              <img class="tile" src="./assets/build-wide.png" alt="HAI Park Mall destination" />
+              <figcaption>HAI Park Mall</figcaption>
+            </figure>
+          </div>
+          <div class="word-strip" aria-hidden="true">
+            <div class="word-strip-group">
+              <span>IP Partner.</span><span>Player Agency.</span><span>HAI Park Mall.</span><span>IP Partner.</span><span>Player Agency.</span><span>HAI Park Mall.</span>
+            </div>
+            <div class="word-strip-group">
+              <span>IP Partner.</span><span>Player Agency.</span><span>HAI Park Mall.</span><span>IP Partner.</span><span>Player Agency.</span><span>HAI Park Mall.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block brand-block" id="brand">
+        <div class="block-inner">
+          <div class="brand-heading reveal">
+            <h2>IP Partner of Manchester United, Burnley &amp; Real Madrid</h2>
+          </div>
+
+          <div class="brand-carousel reveal" aria-label="Brand portfolio image loop">
+            <div class="brand-track">
+              <figure><img src="./assets/brand-loop-4.jpg" alt="Manchester United retail product display" /></figure>
+              <figure><img src="./assets/brand-loop-1.jpg" alt="Manchester United retail facade" /></figure>
+              <figure><img src="./assets/brand-loop-2.jpg" alt="Manchester United lifestyle retail campaign" /></figure>
+              <figure><img src="./assets/brand-loop-3.jpg" alt="Manchester United jersey display" /></figure>
+              <figure><img src="./assets/brand-loop-4.jpg" alt="" /></figure>
+              <figure><img src="./assets/brand-loop-1.jpg" alt="" /></figure>
+              <figure><img src="./assets/brand-loop-2.jpg" alt="" /></figure>
+              <figure><img src="./assets/brand-loop-3.jpg" alt="" /></figure>
+            </div>
+          </div>
+
+          <div class="brand-captions reveal">
+            <article>
+              <h3>Brand Portfolio</h3>
+              <p>Logo wall, trend-led products, sports lifestyle apparel, and hero merchandise for existing fan communities.</p>
+            </article>
+            <article>
+              <h3>Retail Excellence</h3>
+              <p>Standardized store models, fast replication, pop-ups, mall formats, and event-ready offline retail systems.</p>
+            </article>
+            <article>
+              <h3>E-commerce &amp; Operations</h3>
+              <p>Full-channel e-commerce operations, TP partner execution, content conversion, and official store management.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="block athlete-block" id="athlete">
+        <div class="block-inner athlete-grid athlete-grid-v2">
+          <div class="athlete-copy reveal">
+            <h2>Player Agency</h2>
+            <p>
+              From Sporting Talent to Commercial Power. We provide full-cycle athlete management across contracts,
+              commercial sponsorship, brand endorsement, China tours, Asia-Pacific projects, and long-term rights development.
+            </p>
+          </div>
+          <div class="athlete-roster reveal" aria-label="Player agency roster">
+            <figure>
+              <video class="player-video" src="./assets/player-zhangjiaming.mp4?v=20260707b" muted playsinline preload="auto"></video>
+              <figcaption>Jiaming Zhang <span>China U19 National Team Forward | Burnley U21 Player</span></figcaption>
+            </figure>
+            <figure>
+              <video class="player-video" src="./assets/player-xubin.mp4?v=20260707b" muted playsinline preload="auto"></video>
+              <figcaption>Bin XU <span>China U23 National Team Captain | Wolves Player</span></figcaption>
+            </figure>
+            <figure class="is-placeholder">
+              <img src="./assets/ted.png" alt="Future player placeholder" />
+              <figcaption>TBD</figcaption>
+            </figure>
+          </div>
+          <div class="athlete-side-media reveal" aria-hidden="true">
+            <img class="side-large" src="./assets/athlete-side-1.png" alt="" />
+            <img class="side-small" src="./assets/athlete-side-2.png" alt="" />
+            <img class="side-small" src="./assets/athlete-side-3.png" alt="" />
+          </div>
+          <div class="mini-grid">
+            <article>
+              <h3>Elite Player</h3>
+              <p>Pitch performance, media visibility, and sponsor-ready commercial positioning.</p>
+            </article>
+            <article>
+              <h3>Trial Pathway</h3>
+              <p>Club-facing evaluation, overseas training windows, and structured recommendation opportunities.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="block spaces-block" id="spaces">
+        <div class="block-inner spaces-grid">
+          <div class="spaces-title reveal">
+            <h2>Sports & Entertainment Mall</h2>
+          </div>
+          <div class="spaces-media reveal">
+            <img class="spaces-main" src="./assets/spaces-main.jpg" alt="Sports entertainment hub" />
+            <img src="./assets/spaces-1.jpg" alt="Sports retail poster" />
+            <img src="./assets/spaces-2.jpg" alt="Sports entertainment poster" />
+            <div class="spaces-copy">
+              <h3>Sports, Retail, Food, Entertainment.</h3>
+              <p>
+                All in One Destination. Our model is asset-light: combine sports IP, legacy retail resources, premium
+                operators, food and beverage partners, and cultural tourism platforms to build landmark sports entertainment spaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block management-block is-dark" id="about">
+        <div class="block-inner management-inner">
+          <h2 class="reveal">Management</h2>
+          <div class="people-list">
+            <article class="reveal"><strong>Bo Zhang</strong><span>A Dude.</span><p>Founder</p></article>
+            <article class="reveal"><strong>Cun Liu</strong><span>| Vice Chairman</span><p>Strategy, coordination and key decisions.</p></article>
+            <article class="reveal"><strong>Yebo Sun</strong><span>| HAI Mall Managing Director</span><p>Project delivery, operations and execution.</p></article>
+            <article class="reveal"><strong>Jing Sun</strong><span>| Head of Brands</span><p>Emotionally loyal to football, professionally loyal to the P&amp;L.</p></article>
+            <article class="reveal"><strong>Han Song</strong><span>| Head of Athlete Management</span><p>Flying between clubs, players, sponsors and projects, making sure everyone eventually says yes.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <footer class="block footer-block" id="contact">
+        <div class="block-inner footer-inner reveal">
+          <a class="back-arrow" href="#home" aria-label="Back to top"></a>
+          <h2>Build the next sports destination.</h2>
+          <p>Brand Operation / Licensed Products / Retail / Talent / Sponsorship / Mall</p>
+          <small>Hong Kong / Beijing / Shanghai</small>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
